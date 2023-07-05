@@ -8,7 +8,13 @@ class item{
     public:
     void getData(int, float); // function declaration
     void putData(){ 
-        yetToDeclare();
+        
+        // ---------------------------------------------------------------------------------
+        
+        yetToDeclare(); // member function called without dot operator
+        
+        // ---------------------------------------------------------------------------------
+        
         cout<<"number: "<<number<<"\ncost: "<<cost <<"\n";   // function definition
     }
     // --------------- code of highlight -------------------
